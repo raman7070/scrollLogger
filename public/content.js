@@ -6,7 +6,7 @@ const getUsername = () => {
         const usernameElement = firstTweet.querySelector('[data-testid="User-Name"]');
         if (usernameElement) {
             const username = usernameElement.textContent.trim();
-            console.log(`Username: ${username}`);
+            console.log(`Usernames: ${username}`);
         }
     }
 };
